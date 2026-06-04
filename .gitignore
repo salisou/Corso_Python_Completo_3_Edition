@@ -3,6 +3,12 @@
 .venv
 __pycache__
 *.pyc
-
+.DS_Store
+.idea
+*.sln
+*.suo
+*.user
+*.cache
+*.log
 
 

@@ -1,0 +1,11 @@
+nome,cognome,email,eta,citta,stipendio,ruolo,data_assunzione
+Mario,Ricci,mario.ricci@example.info,30,Milano,2000,Sviluppatore,2015-01-15
+Rudy,Botosso,,54,Biella,3000,Project Manager,2010-06-30
+Marco,Secci,marco.secci@example.com,54,San Donà di Piave,1500,Analista,2018-09-01
+Luca,Bianchi,,28,Roma,2500,Sviluppatore,2016-03-20
+Giovanni,Neri,giovanni.neri@example.com,35,Napoli,3500,Team Leader,2012-11-05
+Francesco,Rossi,francesco.rossi@example.ue,42,Torino,4000,Project Manager,2008-04-10
+Giulia,Verdi,giulia.verdi@example.com,28,Firenze,2500,Sviluppatore,2017-07-25
+Elena,Gialli,elena.gialli@example.it,32,Bologna,3000,Analista,2014-02-18
+Federica,Blu,federica.blu@example.com,29,Genova,3500,Team Leader,2013-12-12
+Alessandro,Rosa,alessandro.rosa@example.info,31,Padova,4000,Project Manager,2009-08-01
