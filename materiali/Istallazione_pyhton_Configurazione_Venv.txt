@@ -1,0 +1,32 @@
+Per utilizzare la versione Python 3.12, assicurati di installarla con il comando:
+
+winget install Python.Python.3.12
+
+Dopo l'installazione, verifica la versione attiva digitando nel terminale:
+
+python --version
+
+Se hai più versioni di Python installate, puoi specificare esplicitamente python3.12 (se il comando è riconosciuto) oppure gestire le versioni tramite un tool come pyenv o aggiornare le variabili d'ambiente per puntare a Python 3.12.
+
+Per creare e utilizzare un ambiente virtuale (.venv) con Python 3.12, puoi eseguire i seguenti passaggi:
+
+1. Crea l'ambiente virtuale specificando la versione di Python 3.12:
+   python3.12 -m venv .venv
+
+2. Attiva l'ambiente virtuale:
+   - Su Windows: .venv\Scripts\activate
+   - Su macOS/Linux: source .venv/bin/activate
+
+   - Su macOS/Linux: source .venv/bin/activate
+
+   - Installa i pacchetti elencati nel file requirements.txt:
+     pip install -r requirements.txt
+
+3. Installa tutti i pacchetti necessari usando pip, ad esempio: pandas, matplotlib, numpy, scipy, scikit-learn, seaborn, jupyter, tensorflow.
+
+3. Installa tutti i pacchetti necessari usando pip:
+   pip install -r requirements.txt
+
+In questo modo, l'ambiente virtuale utilizzerà sempre Python 3.12 e conterrà tutte le dipendenze specificate nel file requirements.txt.
+
+

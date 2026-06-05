@@ -1,0 +1,13 @@
+pandas 
+matplotlib
+numpy
+scipy 
+scikit-learn 
+seaborn 
+jupyter
+tensorflow
+openpyxl
+xlsxwriter
+requests
+beautifulsoup4
+lxml

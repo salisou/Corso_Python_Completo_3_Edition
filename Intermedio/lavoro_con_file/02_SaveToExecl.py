@@ -35,15 +35,16 @@ fornitori = {
 df_clienti = pd.DataFrame(clienti)
 df_fornitori = pd.DataFrame(fornitori)
 
-df_clienti.head() # visualizza le prime 5 righe del dataframe clienti
-df_fornitori.head() # visualizza le prime 5 righe del dataframe fornitori
-
 
 # definisci il percorso del file Excel dove salvare i dataframe
+# Modificatemi          👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 👇 
 percorso_file_excel = r"D:\TalentForm_2026_3_Edition\Corso_Python_Completo\Corso_Python_Completo_3_Edition\Intermedio\lavoro_con_file\data\clienti_fornitori.xlsx"
 
 # Verifica se il file Excel esiste già, se sì, carica i dati esistenti e aggiungi i nuovi dati, altrimenti crea un nuovo file Excel
 try:
+    df_clienti.head() # visualizza le prime 5 righe del dataframe clienti
+    df_fornitori.head() # visualizza le prime 5 righe del dataframe fornitori
+
     # Salvare i dataframe in un file Excel con due fogli: "Clienti" e "Fornitori"
     with pd.ExcelWriter(percorso_file_excel, engine='openpyxl') as writer:
         df_clienti.to_excel(writer, sheet_name='Clienti', index=False)
@@ -58,6 +59,3 @@ except FileNotFoundError:
         df_fornitori.to_excel(writer, sheet_name='Fornitori', index=False)
 
     print(f"I dataframe sono stati salvati con successo in {percorso_file_excel}") 
-
-# Se vuoi salvare solo un dataframe in un file Excel, puoi usare il metodo to_excel direttamente sul dataframe, specificando il percorso del file e il nome del foglio:
-# df_clienti.to_excel(percorso_file_excel, sheet_name='Clienti', index=False) 
