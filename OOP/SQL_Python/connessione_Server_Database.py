@@ -1,7 +1,7 @@
 """ 
     Obiettivo del corso Sql Con python:
         Colegamento al database SQL Server
-        esequire query del sistema 
+        eseguire query del sistema 
         recuperare automaticamente le tabelle 
         gestire errori e connessioni in modo pro
         capire come un Data Analyst esplora un Database sconosciuto
